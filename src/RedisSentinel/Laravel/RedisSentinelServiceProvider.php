@@ -12,7 +12,7 @@ class RedisSentinelServiceProvider extends ServiceProvider
      *
      * @var bool
      */
-    protected $defer = true;
+    protected $defer = false;
 
     /**
      * Add the connector to the queue drivers
